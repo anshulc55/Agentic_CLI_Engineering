@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Course runtime lab workspaces & local state (auto-generated during notebook runs)
+lab_*/
+order_service/
+.claude/
+*.log
+.env*
+.DS_Store
+
